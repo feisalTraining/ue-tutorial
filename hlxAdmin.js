@@ -33,7 +33,6 @@ const operations = {
 (async () => {
   const operation = process.argv[2];
   const path = process.argv[3] || '/*';
-// const path = process.argv[3] || '/*';
 
   if (!operation || !operations[operation]) {
     // eslint-disable-next-line no-console
@@ -57,8 +56,7 @@ const operations = {
       url,
       headers: {
         'User-Agent': 'insomnia/10.1.1-adobe',
-        //'x-hlx-auth': process.env.AEM_AUTH_TOKEN,
-        'x-auth-token' : process.env.AEM_AUTH_TOKEN
+        'x-auth-token': process.env.AEM_AUTH_TOKEN,
       },
     });
 
