@@ -29,6 +29,7 @@
           "name": "cq:tags",
           "valueType": "string",
           "rootPath": "/content/cq:tags/wknd-shared"
+          
         }
       ]
     }
