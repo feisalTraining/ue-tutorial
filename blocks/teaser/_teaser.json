@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "component": "button",
+                    "component": "text",
                     "name": "textContent_ctaText",
                     "label": "CTA label",
                     "valueType": "string"
