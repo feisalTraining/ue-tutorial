@@ -22,7 +22,7 @@
   --link-hover-color: black; /* Base hover color */
 
   /* fonts */
-  --body-font-family: 'Source Sans Pro', source-sans-pro-normal-400-fallback,sans-serif; /* Heading font */
+  --body-font-family: 'Source Sans Pro',source-sans-pro-normal-400-fallback ,sans-serif; /* Heading font */
   --heading-font-family: 'Asar', asar-normal-400-fallback,sans-serif; /* Body font */
 
   /* body sizes */
